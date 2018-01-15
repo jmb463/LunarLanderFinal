@@ -1,5 +1,5 @@
 # Este es la ultima fase del proyecto "lunar lander"
-  Jugar: https://cdn.rawgit.com/jmb463/LunarLanderFinal/c22be321/index.html
+  Jugar: https://cdn.rawgit.com/jmb463/LunarLanderFinal/96caf859/index.html
   
   En esta versión hemos incluido JavaScript que le da movimiento al juego y a su vez esto ha supuesto algunos cambios en el diseño inicial.
   
@@ -14,3 +14,5 @@
  
  Objetivo: 
  Aterrizar la nave a una velocidad inferior a 5 metros por segundo, la dificultad más difícil tendrá menor combustible, mientras que la más fácil obtendrá todo el combustible posible, si no se logra que la nave llegue a una velocidad inferior a 5 cuando aterrize aparecerá un mensaje diciendo que que has perdido si al contrario, logras que la nave aterrize con una velocidad inferior a 5 aparecera un mdnsaje diciendo que lo has logrado.
+ 
+ !!Disfruta del juego!!
