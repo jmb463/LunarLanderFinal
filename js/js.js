@@ -1,4 +1,3 @@
-
 //ENTORNO
 var g = 1.622;
 var dt = 0.016683;
@@ -40,7 +39,6 @@ window.onload = function(){
 	document.getElementById("cerrar_opciones").onclick=function(){
 		cerrar_opciones();
 	}
-
 	//niveles de dificultad
 
 	document.getElementById("facil").onclick=function(){
@@ -57,17 +55,6 @@ window.onload = function(){
 
 	document.getElementById("Abutton").onclick=function(){
 		about();
-	}
-
-	//mostrar menú móvil
-    	document.getElementById("showm").onclick = function () {
-		document.getElementsByClassName("c")[0].style.display = "block";
-		stop();
-	}
-	//ocultar menú móvil
-	document.getElementById("hidem").onclick = function () {
-		document.getElementsByClassName("c")[0].style.display = "none";
-		start();
 	}
 
 	//boton movil
@@ -89,6 +76,19 @@ window.onload = function(){
 	
 	//Empezar a mover la nave justo después de cargar la página
 	start();
+
+
+
+	//mostrar menú móvil
+    	document.getElementById("showm").onclick= function(){
+		document.getElementsByClassName("c")[0].style.display = "block";
+		stop();
+	}
+	//ocultar menú móvil
+	document.getElementById("hidem").onclick= function(){
+		document.getElementsByClassName("c")[0].style.display = "none";
+		start();
+	}
 }
 
 //Definición de funciones
