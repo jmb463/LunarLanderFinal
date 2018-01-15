@@ -1,5 +1,5 @@
 # Este es la ultima fase del proyecto "lunar lander"
-  Jugar: link rawgit
+  Jugar: https://cdn.rawgit.com/jmb463/LunarLanderFinal/c22be321/index.html
   
   En esta versión hemos incluido JavaScript que le da movimiento al juego y a su vez esto ha supuesto algunos cambios en el diseño inicial.
   
