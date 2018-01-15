@@ -22,7 +22,7 @@ body,html{
 	height:100%;
 	background-repeat: no-repeat;
 	background-position: 50% 0%;
-	z-index: 1
+	z-index: 1;
 
 }
 
@@ -32,7 +32,7 @@ body,html{
 	height:90px;
 	overflow:hidden;
 	position:fixed;
-	top:0px
+	top:0px;
 }
 
 .b{
@@ -222,6 +222,12 @@ body,html{
 }
 
 
+#showm:hover{
+	background-color: grey;
+}
+
+
+
 #hidem{
 	border-style: solid;
 	border-color: #848484;
@@ -297,12 +303,6 @@ body,html{
 	pointer-events: auto;
 }
 
-
-
-#showm:hover{
-	background-color: grey;
-}
-
 #boton:hover {
 	background-color: #BBB5AC;
     color: white;
@@ -315,14 +315,10 @@ body,html{
 	background-color: grey;
 	margin: 10px;
 	margin-top: 1%;
-	color: black;
 	text-align: center;
 	font-size: 0%;
-	width: 50px;height: 50px;
-	background-image: url(../img/botonMovil.png);
-	background-repeat: no-repeat;
-	background-size: 40%;
-	background-position: 50% 50%;
+	width: 50px;
+	height: 50px;
 	position:relative;
 	z-index: 7;
 }
