@@ -2,6 +2,7 @@
   Jugar: https://cdn.rawgit.com/jmb463/LunarLanderFinal/96caf859/index.html
   
   En esta versión hemos incluido JavaScript que le da movimiento al juego y a su vez esto ha supuesto algunos cambios en el diseño inicial.
+  El juego es responsive, valida y las imagenes están comprimidas
   
   Cambios más importantes;
   Rediseño de el fondo de la pantalla, adición de una imagen luna, ya que en el diseño anterior estaba acoplada al fondo y para mayor funcionalidad y estética decidí cambiarla. También he decidido incorporar a la versión movil una nueva imagen que hace la funcion de desplegable o opciones.
