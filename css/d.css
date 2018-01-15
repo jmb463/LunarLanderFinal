@@ -208,7 +208,7 @@ body,html{
 	padding: 0px;
 }
 
-#hidem,#showm{
+#hidem,#showm,#desplegabe{
 	display:none
 }
 
@@ -315,3 +315,12 @@ a:hover {color: white}
 #boton{
 	display: none;
 }
+
+a:link  
+{   
+ text-decoration:none;
+} 
+a {color:#FF1493;} 
+a:visited {color:#000000;} 
+a:active {color:#FFB6C1;} 
+a:hover {color: #848484;}
